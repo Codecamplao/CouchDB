@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Codecamp.CouchDBService</PackageId>
+    <Authors>Kommaly Saykhambay</Authors>
+    <Company>Codecamp Sole., LTD</Company>
+    <Description>This library used for make couchdb easy to manage</Description>
+    <Copyright>Codecamp Lao 2020</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kommalyskb/Helper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/kommalyskb/Helper</RepositoryUrl>
+    <RepositoryType>C#</RepositoryType>
+    <PackageTags>couchdb</PackageTags>
+    <PackageReleaseNotes>- Add CreateDatabaseWithView</PackageReleaseNotes>
+    <Version>2.3.2</Version>
+    <AssemblyVersion>2.3.2.0</AssemblyVersion>
+    <FileVersion>2.3.2.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MimeMapping" Version="1.0.1.37" />
+    <PackageReference Include="MyCouch" Version="7.6.0" />
+  </ItemGroup>
+
+</Project>
