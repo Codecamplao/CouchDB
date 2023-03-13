@@ -83,7 +83,7 @@ namespace CouchDBService
         Task<DocumentHeaderResponse> EditAsync(CouchDBHelper couchDBHelper, string id, string rev, string jsonDoc);
         Task<(bool CreateStatus, string Reason)> CreateDatabaseWithView(CouchDBHelper couchDBHelper, string jsonData, CancellationToken cancellationToken);
         Task<(bool CreateStatus, string Reason)> CreateDatabaseWithView(CouchDBHelper couchDBHelper, string jsonData);
-        Task QueryAsync(CouchDBHelper couchDBHelper);
+        Task QueryAsync(CouchDBHelper couchDBHelper, string selectorExpression, IList<string> fields);
     }
     public class AttachmentRequest
     {

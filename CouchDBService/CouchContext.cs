@@ -1353,18 +1353,19 @@ namespace CouchDBService
             return result;
         }
         
-        public async Task QueryAsync(CouchDBHelper couchDBHelper)
+        public async Task QueryAsync(CouchDBHelper couchDBHelper, string selectorExpression, IList<string> fields)
         {
             using (var client = new MyCouchClient(couchDBHelper.ServerAddr, couchDBHelper.DbName))
             {
-                var q = "{\"name\":{\"$eq\":\"kommaly\"}}";
+                
+                //var q = "{\"name\":{\"$eq\":\"kommaly\"}}";
                 var result = await client.Queries.FindAsync(new FindRequest
                 { 
-                    SelectorExpression = q,
-                    Fields = new List<string> { "name", "surname", "address" },
-                    Limit = 1,
-                    Skip = 0,
-                    Sort = null
+                    SelectorExpression = selectorExpression,
+                    Fields = fields,//new List<string> { "name", "surname", "address" },
+                    //Limit = 1,
+                    //Skip = 0,
+                    //Sort = null
                 });
                 
             }

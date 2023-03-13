@@ -8,19 +8,27 @@
     <Description>This library used for make couchdb easy to manage</Description>
     <Copyright>Codecamp Lao 2020</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/kommalyskb/Helper</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/kommalyskb/Helper</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Codecamplao/CouchDB</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Codecamplao/CouchDB</RepositoryUrl>
     <RepositoryType>C#</RepositoryType>
     <PackageTags>couchdb</PackageTags>
-    <PackageReleaseNotes>- Add CreateDatabaseWithView</PackageReleaseNotes>
-    <Version>2.3.2</Version>
-    <AssemblyVersion>2.3.2.0</AssemblyVersion>
-    <FileVersion>2.3.2.0</FileVersion>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Version>2.3.3</Version>
+    <AssemblyVersion>2.3.3.0</AssemblyVersion>
+    <FileVersion>2.3.3.0</FileVersion>
+    <PackageIcon>Images\rsz_icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MimeMapping" Version="1.0.1.37" />
     <PackageReference Include="MyCouch" Version="7.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\rsz_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
