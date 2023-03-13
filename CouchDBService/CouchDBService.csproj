@@ -8,15 +8,15 @@
     <Description>This library used for make couchdb easy to manage</Description>
     <Copyright>Codecamp Lao 2020</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/kommalyskb/Helper</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Codecamplao/CouchDB</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Codecamplao/CouchDB</RepositoryUrl>
     <RepositoryType>C#</RepositoryType>
     <PackageTags>couchdb</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <Version>2.3.2</Version>
-    <AssemblyVersion>2.3.2.0</AssemblyVersion>
-    <FileVersion>2.3.2.0</FileVersion>
-    <PackageIcon>rsz_icon.png</PackageIcon>
+    <Version>2.3.3</Version>
+    <AssemblyVersion>2.3.3.0</AssemblyVersion>
+    <FileVersion>2.3.3.0</FileVersion>
+    <PackageIcon>Images\rsz_icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
